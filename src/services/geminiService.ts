@@ -1,11 +1,7 @@
 import type { GeminiMessage } from "../types.ts";
 
 const ROMANTIC_MESSAGES = [
-  "Cada flor es un latido de mi corazón por ti. ¡Feliz San Valentín!",
-  "Tu amor hace florecer mi mundo cada día. Te amo infinitamente.",
-  "Como estas flores, mi amor por ti crece sin parar. ¡Siempre tuyo/a!",
-  "Eres mi jardín favorito y mi sol de cada mañana. ¡Feliz día, mi amor!",
-  "Ni todas las flores del mundo se comparan con tu belleza. Te adoro."
+  "¡Feliz San Valentín!"
 ];
 
 export const generateRomanticMessage = async (flowerCount: number, paletteName: string): Promise<GeminiMessage> => {
